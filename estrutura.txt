@@ -1,0 +1,27 @@
+História: Final do Mundial de Vôlei
+          Itens: camisa, torcida, plano de fundo, bandeiras
+          Sons: torcida, (botão de ligar e desligar)música, narrador
+
+Personagens: PCs: Jogadores
+             NPCs: Bola, quadra, rede
+
+Objetivo: atingir a pontuação máxima primeiro
+
+Regras: se a bola encostar no jogador, ela vai pra cima
+        se a bola cair na quadra de um jogador, o outro pontua
+        a bola não pode passar pela rede, apenas por cima
+        o jogador não consegue ir pro outro lado da quadra
+        o jogador vai pra direita com a tecla "direita", e pra esquerda com a tecla "esquerda"
+        o jogador pula com a tecla "cima"
+        se a bola encostar no jogador enquanto ele segura "espaço", a bola pega um impulso para frente
+
+Adaptabilidade: se a bola ficar no ar por muito tempo, ela fica mais rápida
+
+Equilíbrio: se a bola encostar no jogador enquanto ele segura "espaço", a bola pega um impulso para frente
+            se a bola ficar no ar por muito tempo, ela fica mais rápida
+
+Habilidade/sorte: 
+
+Feedback: torcida vibra a cada ponto
+          pontuação(pontos e sets)
+          ranking e música no final
