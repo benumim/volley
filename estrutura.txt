@@ -1,4 +1,4 @@
-História: Final do Mundial de Vôlei
+História: Final do Mundial de Vôlei SUB-14. Brasil X Sérvia.
           Itens: camisa, torcida, plano de fundo, bandeiras
           Sons: torcida, (botão de ligar e desligar)música, narrador
 
@@ -20,7 +20,7 @@ Adaptabilidade: se a bola ficar no ar por muito tempo, ela fica mais rápida
 Equilíbrio: se a bola encostar no jogador enquanto ele segura "espaço", a bola pega um impulso para frente
             se a bola ficar no ar por muito tempo, ela fica mais rápida
 
-Habilidade/sorte: 
+Habilidade/sorte: não terá elementos de sorte, visto que o jogo é de pura habilidade
 
 Feedback: torcida vibra a cada ponto
           pontuação(pontos e sets)
