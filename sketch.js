@@ -1,7 +1,10 @@
 var ballImg, backgroundImg, player1Img, player2Img;
 var player1, player2;
+var ball;
 var net;
 var rigthEdge, leftEdge, topEdge;
+var p1ground, p2ground;
+
 
 function preload() {
   ballImg = loadImage("./assets/ball.png");
@@ -22,27 +25,25 @@ function setup() {
   rightEdge.visible = false;
   leftEdge = createSprite(0, 350, 20 , 600);
   leftEdge.visible = false;
+  p1ground = createSprite(300, 500, 600, 10);
+  p2ground = createSprite(1000, 500, 700, 10);
+  p1ground.visible = false;
+  p2ground.visible = false;
+
+  var options = {
+    isStatic: false
+  }
+
+  player1 = new Player(250, 420, 130, 210, options);
+  player2 = new Player(1030, 420, 130, 210, options);
 }
 
 function draw() {
   background(backgroundImg);  
   drawSprites();
 
-  if(keyDown("right")){
-    player1.x += 7;
-  }
-
-  if(keyDown("left")){
-    player1.x -= 7;
-  }
-
-  if(keyDown("d")){
-    player2.x +=7
-  }
-
-  if(keyDown("a")){
-    player2.x -= 7;
-  }
+  player1.display(player1Img, player1.x, player1.y, player1.w, player1.h);
+  player2.display(player2Img, player2.x, player2.y, player2.w, player2.h);
 
   player1.collide(net);
   player1.collide(leftEdge);
