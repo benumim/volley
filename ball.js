@@ -1,5 +1,5 @@
 class Ball{
-    constructor() {
+    constructor(x, y, r, options) {
         var options = {
             isStatic: false
         }
@@ -7,7 +7,7 @@ class Ball{
         this.y = y;
         this.radius = r;
         this.velocityY = 5;
-        this.body = Bodies.circle(x, y, r, options);
+        this.body = Matter.Bodies.circle(x, y, r, options);
     }
 
     bounce() {
